@@ -25,19 +25,57 @@ namespace server_chat {
         /// </summary>
         private void InitializeComponent() {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.labelMessenger = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.txtWrite = new System.Windows.Forms.TextBox();
+            this.labelMessenger = new System.Windows.Forms.Label();
             this.btnSend = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.txtWrite);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(353, 426);
             this.panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(11, 237);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(71, 25);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Send to";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "a",
+            "b",
+            "c",
+            "d",
+            "everyone"});
+            this.comboBox1.Location = new System.Drawing.Point(91, 236);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(251, 28);
+            this.comboBox1.TabIndex = 2;
+            // 
+            // txtWrite
+            // 
+            this.txtWrite.Location = new System.Drawing.Point(11, 314);
+            this.txtWrite.Multiline = true;
+            this.txtWrite.Name = "txtWrite";
+            this.txtWrite.Size = new System.Drawing.Size(259, 101);
+            this.txtWrite.TabIndex = 1;
             // 
             // labelMessenger
             // 
@@ -47,14 +85,6 @@ namespace server_chat {
             this.labelMessenger.Size = new System.Drawing.Size(50, 20);
             this.labelMessenger.TabIndex = 0;
             this.labelMessenger.Text = "label1";
-            // 
-            // txtWrite
-            // 
-            this.txtWrite.Location = new System.Drawing.Point(11, 314);
-            this.txtWrite.Multiline = true;
-            this.txtWrite.Name = "txtWrite";
-            this.txtWrite.Size = new System.Drawing.Size(259, 101);
-            this.txtWrite.TabIndex = 1;
             // 
             // btnSend
             // 
@@ -89,6 +119,8 @@ namespace server_chat {
         private System.Windows.Forms.Label labelMessenger;
         private System.Windows.Forms.TextBox txtWrite;
         private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 

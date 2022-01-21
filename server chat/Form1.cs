@@ -14,6 +14,7 @@ namespace server_chat {
     public partial class Form1 : Form {
         public Form1() {
             InitializeComponent();
+            labelMessenger.BackColor=Color.White;
         }
 
         private void btnSend_Click(object sender, EventArgs e) {
