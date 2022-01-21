@@ -26,7 +26,7 @@ namespace server_chat {
         private void InitializeComponent() {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.queue = new System.Windows.Forms.ComboBox();
             this.txtWrite = new System.Windows.Forms.TextBox();
             this.labelMessenger = new System.Windows.Forms.Label();
             this.btnSend = new System.Windows.Forms.Button();
@@ -36,7 +36,7 @@ namespace server_chat {
             // panel1
             // 
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.queue);
             this.panel1.Controls.Add(this.txtWrite);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
@@ -55,19 +55,19 @@ namespace server_chat {
             this.label1.TabIndex = 3;
             this.label1.Text = "Send to";
             // 
-            // comboBox1
+            // queue
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.queue.FormattingEnabled = true;
+            this.queue.Items.AddRange(new object[] {
             "a",
             "b",
             "c",
             "d",
             "everyone"});
-            this.comboBox1.Location = new System.Drawing.Point(91, 236);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(251, 28);
-            this.comboBox1.TabIndex = 2;
+            this.queue.Location = new System.Drawing.Point(91, 236);
+            this.queue.Name = "queue";
+            this.queue.Size = new System.Drawing.Size(251, 28);
+            this.queue.TabIndex = 2;
             // 
             // txtWrite
             // 
@@ -120,7 +120,7 @@ namespace server_chat {
         private System.Windows.Forms.TextBox txtWrite;
         private System.Windows.Forms.Button btnSend;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox queue;
     }
 }
 

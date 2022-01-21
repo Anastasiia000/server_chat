@@ -15,23 +15,24 @@ namespace server_chat {
         public Form1() {
             InitializeComponent();
             labelMessenger.BackColor=Color.White;
+            
+
         }
 
         private void btnSend_Click(object sender, EventArgs e) {
-            int timeToSleep = new Random().Next(1000, 3000);
-            Thread.Sleep(timeToSleep);
+
             var factory = new ConnectionFactory() { HostName = "localhost" }; //создаем инстантс для соединения сервера //работаем с очередью на локальной машине
             using (var connection = factory.CreateConnection()) //содаем абстракциюб которая будет управлять версией протоколаб унификацией и тд
             using (var channel = connection.CreateModel()) {
                 //объявляем очередь, куда мы будем публиковать наше сообщения
-                channel.QueueDeclare(queue: "dev-queue",
+                channel.QueueDeclare(queue: queue.Text,
                     durable: true, exclusive: false, autoDelete: false, arguments: null);
 
                 //переводим сообщение, так как сигнатура метода требует байты
                 var body = Encoding.UTF8.GetBytes(txtWrite.Text);
 
                 channel.BasicPublish(exchange: "",
-                    routingKey: "dev-queue", basicProperties: null, body: body);
+                    routingKey: queue.Text, basicProperties: null, body: body);
 
                 labelMessenger.Text +="\n"+ txtWrite.Text;
                 txtWrite.Clear();
