@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3N2Git+9wpIVnCniEzHuqLla/A+udLh1jcVjGyIhDJlU4aBqRHSn6fO4ajH2sTfLBsPuG9GfuGFpico1XQfGxw==",
+  "dgSpecHash": "nNhPA0TmaAc99056CPbkIMifI4OOctCWUGWmb+5+rX/Ltf8I1m3U8GfGqRkYqJQx97VlDeztzo1vjND/444+xw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anastasiia\\source\\repos\\server chat\\server chat\\server chat.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Anastasiia\\source\\repos\\server_chat\\server chat\\server chat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anastasiia\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
+    "C:\\Users\\Anastasiia\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Anastasiia\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }

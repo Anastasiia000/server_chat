@@ -1,0 +1,18 @@
+C:\Users\Anastasiia\source\repos\server_chat\server chat\bin\Debug\netcoreapp3.1\server chat.exe
+C:\Users\Anastasiia\source\repos\server_chat\server chat\bin\Debug\netcoreapp3.1\server chat.deps.json
+C:\Users\Anastasiia\source\repos\server_chat\server chat\bin\Debug\netcoreapp3.1\server chat.runtimeconfig.json
+C:\Users\Anastasiia\source\repos\server_chat\server chat\bin\Debug\netcoreapp3.1\server chat.runtimeconfig.dev.json
+C:\Users\Anastasiia\source\repos\server_chat\server chat\bin\Debug\netcoreapp3.1\server chat.dll
+C:\Users\Anastasiia\source\repos\server_chat\server chat\bin\Debug\netcoreapp3.1\server chat.pdb
+C:\Users\Anastasiia\source\repos\server_chat\server chat\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\Anastasiia\source\repos\server_chat\server chat\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Users\Anastasiia\source\repos\server_chat\server chat\obj\Debug\netcoreapp3.1\server chat.csprojAssemblyReference.cache
+C:\Users\Anastasiia\source\repos\server_chat\server chat\obj\Debug\netcoreapp3.1\server_chat.Form1.resources
+C:\Users\Anastasiia\source\repos\server_chat\server chat\obj\Debug\netcoreapp3.1\server chat.csproj.GenerateResource.cache
+C:\Users\Anastasiia\source\repos\server_chat\server chat\obj\Debug\netcoreapp3.1\server chat.AssemblyInfoInputs.cache
+C:\Users\Anastasiia\source\repos\server_chat\server chat\obj\Debug\netcoreapp3.1\server chat.AssemblyInfo.cs
+C:\Users\Anastasiia\source\repos\server_chat\server chat\obj\Debug\netcoreapp3.1\server chat.csproj.CoreCompileInputs.cache
+C:\Users\Anastasiia\source\repos\server_chat\server chat\obj\Debug\netcoreapp3.1\server chat.csproj.CopyComplete
+C:\Users\Anastasiia\source\repos\server_chat\server chat\obj\Debug\netcoreapp3.1\server chat.dll
+C:\Users\Anastasiia\source\repos\server_chat\server chat\obj\Debug\netcoreapp3.1\server chat.pdb
+C:\Users\Anastasiia\source\repos\server_chat\server chat\obj\Debug\netcoreapp3.1\server chat.genruntimeconfig.cache
