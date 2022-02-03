@@ -17,3 +17,4 @@ C:\Users\Anastasiia\source\repos\server_chat\server chat\obj\Debug\netcoreapp3.1
 C:\Users\Anastasiia\source\repos\server_chat\server chat\obj\Debug\netcoreapp3.1\server chat.pdb
 C:\Users\Anastasiia\source\repos\server_chat\server chat\obj\Debug\netcoreapp3.1\server chat.genruntimeconfig.cache
 C:\Users\Anastasiia\source\repos\server_chat\server chat\obj\Debug\netcoreapp3.1\server_chat.Properties.Resources.resources
+C:\Users\Anastasiia\source\repos\server_chat\server chat\obj\Debug\netcoreapp3.1\server_chat.createNewRoom.resources
